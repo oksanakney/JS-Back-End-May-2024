@@ -9,5 +9,7 @@
     * Add resources to public folder (css & images)
     * Add body parser
     * Add routes module
-4. Install & config handlebars    
+4. Install & config handlebars 
+    * Install express-handlebars
+    * Config handlebars with express
 
