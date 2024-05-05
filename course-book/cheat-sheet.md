@@ -13,4 +13,8 @@
     * Install express-handlebars
     * Config handlebars with express
     * Add views folder with resouces
+    * Add home page
+    * Add main layout
+    * Add partials dir
+    
 
