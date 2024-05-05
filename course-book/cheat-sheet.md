@@ -7,4 +7,7 @@
     * Start initial express server
     * Add static middleware
     * Add resources to public folder (css & images)
+    * Add body parser
+    * Add routes module
+4. Install & config handlebars    
 
