@@ -34,6 +34,7 @@
     * Hash password
     * Check confirm password
 7. Login
-    * Add login page   
+    * Add login page
+    * Fix login form   
 
 
