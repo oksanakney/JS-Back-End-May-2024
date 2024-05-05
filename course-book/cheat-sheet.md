@@ -37,6 +37,7 @@
 7. Login
     * Install jsonwebtoken
     * Install cookie-parser
+    * Add cookie-parse middleware
     * Optionally: convert to promise based
     * Add login page
     * Fix login form
@@ -54,5 +55,6 @@
     * Verify token
     * Attach user to request object and res.locals
     * Use middleware in express
+    * Add isAuth route guard
 
 
