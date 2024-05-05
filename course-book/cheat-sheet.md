@@ -46,6 +46,7 @@
         * Validate password
         * Generate token
     * Return cookie
+    * Modify register for auto login
         
 
 
