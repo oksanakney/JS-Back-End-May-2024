@@ -16,5 +16,7 @@
     * Add home page
     * Add main layout
     * Add partials dir
-    
+5. Database
+    * Install mongoose 
+    * Setup db connection   
 

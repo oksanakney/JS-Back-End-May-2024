@@ -1,5 +1,6 @@
 const express = require('express');
 const handlebars = require('express-handlebars');
+const mongoose = require('mongoose');
 
 const routes = require('./routes');
 
@@ -18,5 +19,13 @@ app.set('view engine', 'hbs');
 //app.engine('hbs', handlebars.engine());
 
 app.use(routes);
+
+//optional
+mongoose.connection.on('connected', () => console.log('DB is connected'));
+mongoose.connection.on('disconnected', () => console.log('DB is disconnected'));
+mongoose.connection.on('error', (err) => console.log(err));
+
+//TODO: change db name
+mongoose.connect('mongodb://localhost:27017/course-book');
 
 app.listen(5000, () => console.log('App is listening on http://localhost:5000'));
