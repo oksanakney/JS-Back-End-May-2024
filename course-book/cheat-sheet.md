@@ -47,7 +47,12 @@
         * Generate token
     * Return cookie
     * Modify register for auto login
-8. Logout    
-        
+8. Logout
+9. Authorization
+    * Add auth middleware
+    * Check token if guest
+    * Verify token
+    * Attach user to request object and res.locals
+    * Use middleware in express
 
 
