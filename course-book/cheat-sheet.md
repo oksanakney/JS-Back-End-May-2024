@@ -26,5 +26,6 @@
     * Add user model 
 6. Authentication
     * Fix navigation links
-    * Add register page 
+    * Add register page (controller + view + route)
+    * Fix register form
 
