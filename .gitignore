@@ -260,3 +260,4 @@ dist
 .pnp.*
 # Ignore course-book\config.js
 course-book\config.js
+course-book/config.js
