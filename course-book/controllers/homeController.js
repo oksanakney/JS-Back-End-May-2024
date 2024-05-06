@@ -6,6 +6,7 @@ router.get('/', (req, res) => {
 });
 
 router.get('/authorize-test', isAuth, (req, res) => {
+    console.log(req.user);
     res.send('You are authorized');
 });
 
