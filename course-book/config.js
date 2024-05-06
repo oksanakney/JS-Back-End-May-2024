@@ -1,3 +1,3 @@
 module.exports = {
-    SECRET: 'PLACEHOLDER_SECRET'
+    SECRET: 'ardfgdfh4536aegjkhj89okv2agehdj34356'
 };
