@@ -258,5 +258,5 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
-# Ignore config.js
-config.js
+# Ignore course-book\config.js
+course-book\config.js
