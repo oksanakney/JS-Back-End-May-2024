@@ -47,5 +47,6 @@ function generateToken(user) {
         username: user.username,
         email: user.email,
     }
+    
     return jwt.sign(payload, SECRET, { expiresIn: '2h' });    
 }
