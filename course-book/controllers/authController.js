@@ -18,6 +18,19 @@ router.post('/register', async (req, res) => {
         res.render('auth/register', {error: getErrorMessage(err)});
     }    
 });
+function getErrorMessage(err) {
+    console.log(err);
+    
+    if (err.errors) {
+        let errorsArr = Object.keys(err.errors);
+        if (errorsArr.length > 0) {
+            return err.errors[errorsArr[0]];
+        }
+    }
+    
+    return err.message;
+}
+
 
 router.get('/login', (req, res) => {
     res.render('auth/login');
