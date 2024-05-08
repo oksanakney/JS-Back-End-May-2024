@@ -1,6 +1,6 @@
 const router = require('express').Router();
-
 const authService = require('../services/authService');
+const { isGuest } = require('../middlewares/authMiddleware');
 
 router.get('/register', (req, res) => {
     res.render('auth/register');
@@ -31,11 +31,11 @@ function getErrorMessage(err) {
     return err.message;
 }
 
-router.get('/login', (req, res) => {
+router.get('/login', isGuest, (req, res) => {
     res.render('auth/login');
 });
 
-router.post('/login', async (req, res) => {
+router.post('/login', isGuest, async (req, res) => {
     const loginData = req.body;
 
     try {
@@ -44,7 +44,7 @@ router.post('/login', async (req, res) => {
         res.cookie('auth', token);
         res.redirect('/');
     } catch(err) {
-            res.render('auth/login', {error: getErrorMessage(err)});
+            res.render('auth/login', {...loginData,error: getErrorMessage(err)});
     }
 
 });
