@@ -1,6 +1,7 @@
 const router = require('express').Router();
+const courseService = require('../services/courseService');
 
-const courseService = require('../services/courseService')
+const { isAuth } = require('../middlewares/authMiddleware');
 
 router.get('/create', (req, res) => {
     res.render('courses/create');

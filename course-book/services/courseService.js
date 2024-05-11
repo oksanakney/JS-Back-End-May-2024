@@ -6,3 +6,4 @@ exports.create = (userId, courseData) => {
         ...courseData
     });
 }
+
