@@ -5,3 +5,7 @@
 (npm i -D nodemon(dev dependency))
 (npm i express express-handlebars)
 3. Add resources
+4.Express config
+    * Body parser config
+    * Static path
+5. Express handlebars    
