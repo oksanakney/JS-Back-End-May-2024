@@ -11,7 +11,8 @@ router.post('/create', (req, res) => {
     const courseData = req.body;
 
     try {
-        await courseService.create(req.user._id, courseData);
+        // await
+         courseService.create(req.user._id, courseData);
 
         res.redirect('/courses')
 
