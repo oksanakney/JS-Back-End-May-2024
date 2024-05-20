@@ -2,7 +2,7 @@ const express = require('express');
 const hbs = require('express-handlebars');
 
 const { PORT } = require('./config/env');
-const routes = ('./routes');
+const routes = require('./routes');
 
 const app = express();
 
