@@ -17,4 +17,7 @@
 10. Fix static assets and paths
 
 ## Authentication
-1. add login page
+1. Add auth controller
+    * add controller to routes
+2. Add login page
+    * modify hrefs
