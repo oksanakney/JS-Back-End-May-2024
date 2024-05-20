@@ -1,5 +1,6 @@
 # Tasks
 
+## Initial setup
 1. Initialize project
 2. Install initial dependencies / nodemon, express, express-handlebars /
 <!-- (npm i -D nodemon(dev dependency))
@@ -14,3 +15,6 @@
 8. Add layout
 9. Add home view/template
 10. Fix static assets and paths
+
+## Authentication
+1. add login page
