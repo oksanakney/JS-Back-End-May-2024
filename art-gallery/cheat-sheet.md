@@ -9,4 +9,5 @@
     * Body parser config
     * Static path
 5. Configure express handlebars  
-6.  
+6. Add router
+7. Add home controller
