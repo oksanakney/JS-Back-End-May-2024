@@ -20,4 +20,6 @@
 1. Add auth controller
     * add controller to routes
 2. Add login page
-    * modify hrefs
+    * modify hrefs in navigation
+    * modify names in forms
+3. Add post login and register actions    
