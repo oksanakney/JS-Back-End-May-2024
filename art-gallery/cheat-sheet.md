@@ -16,6 +16,11 @@
 9. Add home view/template
 10. Fix static assets and paths
 
+## Database setup
+1. Install mongoose
+2. Configure mongoose
+3. Create User model
+
 ## Authentication
 1. Add auth controller
     * add controller to routes
