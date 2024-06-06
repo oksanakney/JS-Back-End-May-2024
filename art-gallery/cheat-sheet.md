@@ -28,3 +28,6 @@
     * modify hrefs in navigation
     * modify names in forms
 3. Add post login and register actions    
+
+## Notifications
+1. Add notification element to layout
