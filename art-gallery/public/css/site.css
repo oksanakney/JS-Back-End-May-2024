@@ -141,7 +141,7 @@
         /* Safari and Chrome */
         -o-animation: cssAnimation 0s ease-in 2s forwards;
         /* Opera */
-        animation: cssAnimation 0s ease-in 2s forwards;
+        animation: cssAnimation 0s ease-in 5s forwards;
         -webkit-animation-fill-mode: forwards;
         animation-fill-mode: forwards;
     }

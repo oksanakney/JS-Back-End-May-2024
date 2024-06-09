@@ -2,7 +2,8 @@
 
 ## Initial setup
 1. Initialize project
-2. Install initial dependencies / nodemon, express, express-handlebars /
+2. Install initial dependencies / nodemon, express, express-handlebars,
+bcrypt, jsonwebtoken /
 <!-- (npm i -D nodemon(dev dependency))
      (npm i express express-handlebars) -->
 3. Add resources
@@ -27,7 +28,12 @@
 2. Add login page
     * modify hrefs in navigation
     * modify names in forms
-3. Add post login and register actions    
+3. Add post login and register actions
+4. Create user
+5. Hash password
 
 ## Notifications
 1. Add notification element to layout
+
+## Error handling
+1. Add error mapper
